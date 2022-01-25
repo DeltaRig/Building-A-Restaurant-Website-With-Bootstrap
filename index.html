@@ -7,15 +7,15 @@
 
   
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link href="./assets/css/style.css" rel="stylesheet">
 
-
-<script src="assets/js/jquery.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/js/navbar-animation-fix.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
         <a class="navbar-brand" href="#">Ming's Diner</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -35,6 +35,46 @@
 
 	<h1>Ming's Diner</h1>
 	<p>Restaurant</p>
+
+  <div id="demo" class="carousel slide bg-dark mb-4" data-ride="carousel">
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-slide-to="0" class="active"></li>
+    <li data-slide-to="1"></li>
+    <li data-slide-to="2"></li>
+  </ul>
+
+  <div class="carousel-inner justify-content-center">
+    <div class="carousel-item active justify-content-center">
+      <img class="d-block col-md-3 col-lg-2 col-xl-4 mx-auto" src="assets/images/food.png" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Bem vindo ao melhor restaurant da cidade!</h5>
+        <p>Variedade e qualidade em um só lugar</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block col-md-3 col-lg-2 col-xl-4 mx-auto" src="assets/images/place.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Local aconchegante</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block col-md-3 col-lg-2 col-xl-4 mx-auto" src="assets/images/kitchen.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Com os melhores cozinheiros</h5>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  </div>
+
 
     <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
