@@ -5,3 +5,9 @@ body {
 .carousel-caption {
     text-shadow:#000 -1px -1px
 }
+
+.img_bestseller{
+    object-fit: scale-down;
+    width: 250px; 
+    height: 200px;
+}
