@@ -1,5 +1,60 @@
+:root {
+    --main-color: #1B1A1A;
+    --sec-color: #561D22;
+    --ter-color: #FFF4EA;
+}
+
 body {
-    background-color: #e3f9ff;
+    background-color: var(--main-color);
+}
+
+footer {
+    background-color:  var(--ter-color);
+}
+
+footer p {
+    color: var(--main-color);
+}
+
+h1 {
+    color: var(--ter-color);
+}
+
+h2 {
+    color: var(--ter-color);
+}
+
+h3 {
+    color: var(--sec-color)
+}
+
+h6 {
+    color: var(--sec-color)
+}
+
+p {
+    color: var(--ter-color);
+}
+
+form {
+    color: var(--ter-color)
+}
+
+.navbar{
+    background-color:  var(--sec-color);
+}
+
+.card {
+    background-color: var(--ter-color);
+}
+
+.carousel {
+    background-color:  var(--sec-color);
+}
+
+.btn{
+    background-color:  var(--sec-color);
+    color: var(--ter-color);
 }
 
 .carousel-caption {
@@ -11,3 +66,5 @@ body {
     width: 250px; 
     height: 200px;
 }
+
+
