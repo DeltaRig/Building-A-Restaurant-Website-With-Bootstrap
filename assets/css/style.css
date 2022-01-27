@@ -9,11 +9,11 @@ body {
 }
 
 footer {
-    background-color:  var(--ter-color);
+    background-color:  var(--sec-color);
 }
 
 footer p {
-    color: var(--main-color);
+    color: var(--ter-color);
 }
 
 h1 {
@@ -29,7 +29,11 @@ h3 {
 }
 
 h6 {
-    color: var(--sec-color)
+    color: var(--ter-color)
+}
+
+a {
+    color: var(--ter-color) 
 }
 
 p {
@@ -46,6 +50,10 @@ form {
 
 .card {
     background-color: var(--ter-color);
+}
+
+.card p {
+    color: var(--main-color);
 }
 
 .carousel {
