@@ -30,7 +30,6 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -41,35 +40,48 @@
             </li>
           </ul>
         </div>
-      
       </nav>
 
 
-
+	<!--FORM-->
     <div class="container mt-10">
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-8">
                 <h2 class="title-primary text-capitalize">Contact</h2>
                 <p>Here you can contact the restaurant, make a reservation and ask questions.
                    We want to improve our service more and more so we accept suggestions, feedbacks.</p>
                 <br>
-                <div class="col-md-10">
-                    <form name="suggestionsForm" method="post">
-                        <p>Your name:
-                            <input class="form-control" name="name" type="text" placeholder="Jone Joe"/>
-                        </p>
-                        <p>Your e-mail:
-                            <input class="form-control" name="email" type="email" placeholder="jone_joe@exemplo.com"/>
-                        </p>
-                        <p>Message:
-                            <textarea class="form-control" name="suggestions" type="text" placeholder="Your message here..." rows="5"></textarea>
-                        </p>
+                    <form name="contactForm" method="post">
+                        <div class="form-group">
+                          <label for="inputName">Your name</label>
+                          <input type="name" class="form-control" id="inputName" placeholder="Jone Joe">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="inputEmail">Email</label>
+                          <input type="email" class="form-control" id="inputEmail" placeholder="jone_joe@exemplo.com">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="inputSubject">Subject</label>
+                          <select id="inputSubject" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Reservation</option>
+                            <option>Feedback/Suggestion</option>
+                            <option>Career</option>
+                            <option>Other</option>
+                          </select>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="inputMessage">Message</label>
+                          <textarea rows="7" type="text" class="form-control" id="inputMessage" placeholder="Your message here..."></textarea>
+                        </div>
+
                         <br>
-                        <input class="btn button" name="send" type="submit" value="Submit"></input>
+                        <input class="btn btn-primary" name="send" type="submit" value="Submit"></input>
                     </form>
-                </div>
             </div>
-            
         </div>
     </div>
     
@@ -78,11 +90,10 @@
 
 
     <!-- FOOTER -->
-     <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
     <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
+    <section>
+      <div class="container text-center text-md-start mt-5 p-4">
         <!-- Grid row -->
         <div class="row mt-3">
           <!-- Grid column -->
